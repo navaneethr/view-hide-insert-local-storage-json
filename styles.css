@@ -1,0 +1,61 @@
+#tableDIV {
+    margin: 0px 50px 50px 50px;
+}
+
+#table1DIV {
+    margin: 50px 50px 0px 50px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#table, #table1 {
+    font-size: 125%;
+}
+
+#table1 th {
+    width: 150px;
+}
+
+#table td {
+    width: 140px;
+}
+
+.infoTd {
+    height: 100px;
+}
+
+.spanClass {
+    width: 500px;
+    text-align: center;
+}
+
+#wrapper {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#formID,
+#div2 {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.col1 {
+    text-align: right;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.w3-round-xxlarge {
+    width: 30%;
+    float: left;
+    margin: 1.65%;
+}
+
+span{
+    color: red;
+}

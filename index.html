@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="wrapper">
+    <div id="formID">
+        <!-- <form name="f1" action="" onsubmit="return validate()"> -->
+        <div class="w3-container w3-light-blue" style="text-align:center;">
+            <p style="font-size: 25px;">$jQuery - Store it in Local Storage from JSON and show it in tabular format</p>
+        </div>
+        <form class="w3-container w3-card-4">
+
+        </form>
+
+        <p>
+            <input class="w3-input" type="text" id="Fname" placeholder="Firstname"/>
+            <span id="Fnameloc"></span>
+        </p>
+        <p>
+            <input class="w3-input" type="text" id="Lname" placeholder="Lastname"/>
+            <span id="Lnameloc"></span>
+        </p>
+
+        <p>
+            <input class="w3-input" type="text" id="department" placeholder="Department"/>
+            <span id="Deptloc"></span>
+        </p>
+
+
+        <p>
+            <input class="w3-input" type="text" id="phone" placeholder="Phone"/>
+            <span id="Phoneloc"></span>
+        </p>
+
+        <p>
+            <input class="w3-input" type="text" id="email" placeholder="email"/>
+            <span id="Emailloc"></span>
+        </p>
+
+
+        <p>
+            <input class="w3-input" type="text" id="CommAddress" placeholder="Communication Address"/>
+            <span id="ComAddloc"></span>
+        </p>
+
+
+        <p>
+            <input class="w3-input" type="text" id="PermAddress" placeholder="Permanent Address"/>
+            <span id="PermAddloc"></span>
+        </p>
+
+
+        <p>
+            <input class="w3-input" type="text" id="PrevEmployer" placeholder="Previous Employer"/>
+            <span id="PrevEmploc"></span>
+        </p>
+
+        <div style="height: 80px;" class="w3-panel w3-card-2 w3-white"><p style="color: gray">Drag your Location onto
+            this card</p></div>
+
+        <div class="w3-panel w3-round-xxlarge w3-light-blue"><p>Dallas</p></div>
+        <div class="w3-panel w3-round-xxlarge w3-light-blue"><p>Jersey City</p></div>
+        <div class="w3-panel w3-round-xxlarge w3-light-blue"><p>Houston</p></div>
+
+        <div style="text-align: center; clear: both;">
+            <input id="submitID" type="submit" class="w3-btn w3-light-blue w3-padding-large" value="Submit"/>
+        </div>
+
+        <!-- </form> -->
+    </div>
+</div>
+
+<div id="table1DIV">
+    <table id="table1" class="w3-table w3-medium">
+        <tr class="w3-light-blue">
+            <th colspan="1">Name</th>
+            <th colspan="1">Location</th>
+            <th colspan="1">Department</th>
+            <th colspan="1"></th>
+            <th colspan="1"></th>
+        </tr>
+    </table>
+</div>
+
+<div id="tableDIV" style="height:500px; overflow:auto;">
+    <table id="table" class="w3-table w3-medium w3-bordered">
+    </table>
+</div>
+
+
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
