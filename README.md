@@ -6,3 +6,7 @@ I got the data from JSON file and stored it in Local Storage to later show it in
 Application loads JSON data and stores it in a tabular format and when you click on view button it shows extra information about the respective person. It also hides the extra information. However adding new data to the Local Storage has not been done yet.
 
 <p><h3>!Run this application on a Server</h3></p>
+
+<h2>Code to get data from JSON and store it in Local Storage</h2>
+
+<img src="https://github.com/navaneethr/view-hide-insert-local-storage-json/blob/master/ApplicationImages/GetJSON.PNG">
